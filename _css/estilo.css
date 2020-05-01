@@ -80,9 +80,9 @@ div#logo img{
 }
 div#pc img {
     float: right;
-    margin: 35px 50px 10px 10px;
-    width: 250px;
-    height: 149px;
+    margin: 20px 50px 10px 0px;
+    width: 320px;
+    height: 225px;
 }
 
 /* table com os participantes */
@@ -92,10 +92,25 @@ table#participantes {
     border-spacing: 0px;
     border: 1px solid black;
 }
-
-table#participantes td {
+table#participantes img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -5px;
     border: 1px solid black;
-    padding: 10px;
+}
+table#participantes td {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+table#participantes p {
+    font-weight: normal;
+    font-size: 15px;
+}
+table#participantes td.img {
+    padding: 0px; 
 }
 
 /* rodape */
