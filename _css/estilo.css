@@ -16,16 +16,28 @@ div#interface {
 header{
     width: 1200px;
     text-align: center;
-    height: 210px;
+    height: 220px;
     margin: 0;
     background-color: black;
 }
 
+header h1 {
+    text-align: left;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+}
+
 /* navegação entre paginas do site */
 nav#links{
+    position: absolute;
     width: 1200px;
     background-color: black;
     border-top: 1px solid white;
+    top: 220px;
 }
 
 nav#links ul{
@@ -55,17 +67,22 @@ article {
     text-align: justify;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
     padding: 5px;
 }
 
-#imagem img{
-    float: top;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 280px;
-    height: 180px;
+div#logo img{
+    float: left;
+    margin: 10px 10px 10px 20px;
+    width: 200px;
+    height: 200px;
+}
+div#pc img {
+    float: right;
+    margin: 35px 50px 10px 10px;
+    width: 250px;
+    height: 149px;
 }
 
 /* table com os participantes */
