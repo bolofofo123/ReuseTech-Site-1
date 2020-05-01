@@ -1,0 +1,31 @@
+nav#links ul{
+	list-style: none;
+	right: 50%;
+}
+
+nav#links li {
+	display: inline-block;
+	padding: 10px;
+	margin: 5px;
+	background-color: lightgray;
+	margin: 0px;
+}
+
+table#participantes {
+	border-spacing: 0px;
+	border: 1px solid black;
+
+}
+
+table#participantes td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+footer#rodape {
+	margin-top: 10px; 
+	padding-top: 10px; 
+	border-top: 1px solid black;
+	text-align: center;
+	list-style: none;
+}
