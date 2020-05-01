@@ -12,33 +12,20 @@ div#interface {
     background-color: white;
 }
 
-/* configuração de links */
-a {
-    color: #606060;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-
 /* cabeçalho */
 header{
     width: 1200px;
     text-align: center;
-    height: 100px;
+    height: 210px;
     margin: 0;
-}
-header h1{
-    background-image: linear-gradient(to bottom, rgb(16, 212, 16), rgb(16, 130, 16));
-    padding: 10px;
-    margin: 0px; 
-    border-top: 1px solid black;
+    background-color: black;
 }
 
 /* navegação entre paginas do site */
 nav#links{
     width: 1200px;
     background-color: black;
+    border-top: 1px solid white;
 }
 
 nav#links ul{
@@ -60,13 +47,31 @@ nav#links li a{
 }
 nav#links li a:hover{
     background-color: rgba(128, 126, 126, 0.541);
-    
+}
+
+/*Principal*/
+article {
+    text-indent: 30px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#imagem img{
+    float: top;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 280px;
+    height: 180px;
 }
 
 /* table com os participantes */
 table#participantes {
     float: center;
-    margin: 10px 10px 10px 400px;
+    margin: 50px 10px 10px 400px;
     border-spacing: 0px;
     border: 1px solid black;
 }
@@ -88,27 +93,14 @@ footer#rodape {
 }
 footer#rodape li {
     display: inline;
+    color: gray;
 }
 
-/*Principal*/
-article{
-    width: 700px;
-    text-align: center;
-    margin-right: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 5px;
-
-    float: right;
+footer#rodape a {
+    color: #606060;
+    text-decoration: none;
 }
-
-#imagem img{
-    float: left;
-    margin-left: 40px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 280px;
-    height: 280px;
+footer#rodape a:hover {
+    text-decoration: underline;
 }
-
 
