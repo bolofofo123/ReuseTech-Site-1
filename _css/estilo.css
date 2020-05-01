@@ -1,0 +1,114 @@
+/*Todos*/
+body{
+    width:1200px; 
+    margin:-1px auto 10px;
+    border:1px solid rgb(3, 3, 3); 
+    background-color: lightgray; 
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 1px 1px 10px black;
+}
+
+div#interface {
+    background-color: white;
+}
+
+/* configuração de links */
+a {
+    color: #606060;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* cabeçalho */
+header{
+    width: 1200px;
+    text-align: center;
+    height: 100px;
+    margin: 0;
+}
+header h1{
+    background-image: linear-gradient(to bottom, rgb(16, 212, 16), rgb(16, 130, 16));
+    padding: 10px;
+    margin: 0px; 
+    border-top: 1px solid black;
+}
+
+/* navegação entre paginas do site */
+nav#links{
+    width: 1200px;
+    background-color: black;
+}
+
+nav#links ul{
+    list-style: none;
+    margin:0;
+    padding: 12px;
+    
+}
+
+nav#links li {
+    display: inline-block;
+    width: 300px;
+
+}
+nav#links li a{
+    text-decoration: none;
+    padding: 4px 20px;
+    color: white;
+}
+nav#links li a:hover{
+    background-color: rgba(128, 126, 126, 0.541);
+    
+}
+
+/* table com os participantes */
+table#participantes {
+    float: center;
+    margin: 10px 10px 10px 400px;
+    border-spacing: 0px;
+    border: 1px solid black;
+}
+
+table#participantes td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* rodape */
+footer#rodape {
+	margin-top: 10px; 
+	padding-top: 10px;
+    padding-bottom: 10px; 
+	border-top: 1px solid black;
+	text-align: center;
+    list-style: none;
+    clear: both;
+}
+footer#rodape li {
+    display: inline;
+}
+
+/*Principal*/
+article{
+    width: 700px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    float: right;
+}
+
+#imagem img{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+
