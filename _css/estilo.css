@@ -104,13 +104,29 @@ table#participantes td {
     text-align: center;
     border: 1px solid black;
     padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 table#participantes p {
     font-weight: normal;
     font-size: 15px;
+    padding-bottom: 5px;
 }
 table#participantes td.img {
     padding: 0px; 
+}
+table#participantes li {
+    position: relative;
+    display: inline;
+    font-weight: normal;
+    font-size: 20px;
+}
+table#participantes a {
+    text-decoration: none;
+    color: green;
+}
+table#participantes a:hover {
+    text-decoration: underline;
 }
 
 /* rodape */
@@ -129,7 +145,7 @@ footer#rodape li {
 }
 
 footer#rodape a {
-    color: #606060;
+    color: green;
     text-decoration: none;
 }
 footer#rodape a:hover {
