@@ -151,4 +151,30 @@ footer#rodape a {
 footer#rodape a:hover {
     text-decoration: underline;
 }
+/*Tudo sobre o que a Reuse Tech Aborda*/
+div#aborda{
+    margin: auto;
+    width: 70%;
+    margin-top: 70px;
+}
+/*Separa o texto de sobre o que a reuse tech aborda*/
+div#txt_aborda{
+    box-shadow: inset -1px -2px 13px 4px rgba(0,0,0,0.3);
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgba(206, 203, 203, 0.568);
+}
+/**/
+#txt_aborda h4,#aborda h1{
+    text-align: center;
+}
+/*Titulo O que o Reuse Tech Aborda*/
+#aborda h1{
+    margin: 0;
+    box-shadow: inset 1px 2px 13px 4px rgba(0,0,0,0.3);
+    border: 1px solid black;
+    border-bottom: 0px;
+    background-color: rgba(6, 209, 6, 0.788);
+    padding: 5px;
+}
 
