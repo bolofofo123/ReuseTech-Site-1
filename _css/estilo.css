@@ -10,6 +10,8 @@ body{
 
 div#interface {
     background-color: white;
+    padding: 10px;
+    width:1200px; 
 }
 
 /* cabeçalho */
@@ -19,6 +21,7 @@ header{
     height: 220px;
     margin: 0;
     background-color: black;
+    border-radius: 10px;
 }
 
 header h1 {
@@ -33,11 +36,12 @@ header h1 {
 
 /* navegação entre paginas do site */
 nav#links{
+    margin-top: 12px;
     position: absolute;
     width: 1200px;
     background-color: black;
-    border-top: 1px solid white;
     top: 220px;
+    border-radius: 10px;
 }
 
 nav#links ul{
