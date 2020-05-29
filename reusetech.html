@@ -1,40 +1,67 @@
-
 <!DOCTYPE html>
 <html lang = "pt-br">
-
 <head>
 	<meta charset = "UTF-8"/>
 	<title>Reuse Tech</title>
 	<mata name="viewport" content="width=devise-width,initial-sacale=1.0">
+	<link rel = "stylesheet" href="css/bootstrap.min.css">
 	<link rel = "stylesheet" href = "_css/estilo.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+	</script>
 </head>
-
 <body>
-	<div id = "interface">
+	<main>
 		<!-- Links de navegação pelo site / Logo -->
 		<header>
-			<div id="logo">
-				<img src="_imagens/reusetech.png">
-			</div>
-			<div id="pc">
-				<img src="_imagens/pc.png">
-			</div>
-			<h1>ReuseTech</h1>
-			<nav id = "links">
-				<ul>
-					<li><a href = "reusetech.html">Pagina Principal</a></li>
-					<li><a href = "acoes.html">Ações</a></li>
-					<li><a href = "contato.html">Contato</a></li>
-				</ul>
+			<!--Cria um menu tipo dark, adiciona botão antes da posição lg-->
+			<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
+				<a class="navbar-brand" href="#"></a><!--Adiciona a imagen antes dos links (Logo do Projeto)-->
+					<img src="_imagens/reusetech.png" width="190" height="190" class="d-inline-block align-top" id="logo">
+				</a>
+				<!--Faz o titulo somente aparecer para tamanho md e sm-->
+				<div class="d-none d-sm-block d-md-block d-lg-none">
+					<a class="navbar-brand" href="">
+						<h1>Reuse Tech</h1>
+					</a>
+				</div>
+				<!--Botão que aparece depois dos links desaparecerem-->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<!--Links de Navegação-->
+				<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+				  	<ul class="navbar-nav mr-auto">
+					<!--Os Links são visiveis somente no tamnho lg e xl-->	
+						<li class="nav-item ">
+							<a class="nav-link" href="reusetech.html">Pagina Principal</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="acao.html">Ações</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contato.html">Contato</a>
+						</li>
+				  	</ul>
+				</div>
+				<!--Imagen do PC aparece somente no tamanho Xl-->
+				<div class="d-none d-xl-block" id="pc">
+					<a class="navbar-brand" href="#">
+						<img src="_imagens/pc.png" width="97%" height="97%" class="d-inline-block align-top" id="imgp">
+					</a>
+				</div>
 			</nav>
 		</header>
-
+		
+		
 		<!-- Texto -->
-		<article>
+		<article class="container">
 			<h1>Sobre o Projeto</h1>
 			<p>	Muito se tem discutido atualmente com relação a conscientização ambiental e os cuidados com o meio ambiente. Na área da informática essa também é uma das preocupações atuais, pois surgem novos equipamentos a cada dia com maior desempenho substituindo a peça anterior.</p> 
 			<p>A sociedade, falando de um modo geral (cidadãos e empresas), nem sempre sabem como se faz o descarte correto deste material ou até mesmo o que fazer com ele, mesmo que estes equipamentos não atendam as demandas inicias, ainda podem ser destinados para outros propósitos de utilização, como fins educacionais. A partir de 2017, o campus oferece a disciplina de Hardware e Sistemas Operacionais aos alunos do curso Técnico em Informática Integrado ao Ensino Médio. Dessa forma, o projeto REUSETECH pretende conscientizar, além dos alunos de Informática, a população local a respeito de equipamentos de informática, dando como o exemplo o reaproveitamento de equipamentos e proporcionando uma nova experiência.</p>
-			<div id="aborda">
+			<div id="aborda" class="container">
 				<h1>O que o Reuse Tech aborda?</h1>
 				<div id="txt_aborda">
 					<h4>1°Conscientização ambiental sobre reutilização de equipamentos de informática.</h4>
@@ -50,12 +77,12 @@
 		</article>
 		
 		<!-- Parte de baixo do site -->
-		<footer id = "rodape">
+		<footer id = "rodape" class="container">
 			<li><a href = "http://twitter.com/" target = "_blank">Twitter</a></li>
 			<li> | </li>
 			<li><a href = "http://facebook.com" target = "_blank"> Facebook</a></li>
 			<li> | </li>
 			<li><a href = "https://www.instagram.com/projeto_reusetech?r=nametag" target = "_blank"> Intragram</a></li>
 		</footer>
-	</div>
+	</main>
 </body>
