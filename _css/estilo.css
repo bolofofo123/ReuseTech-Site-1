@@ -34,21 +34,55 @@ header ul{/*Conjunto dos links do ul*/
 #imgp{/*Logo do projeto*/
     margin-top: 20px;
 }
-footer {/*rodape*/
+
+/*rodape*/
+footer {
     border-top: 1px solid black ;
     text-align: center;
-    
     padding: 10px;
 }
-footer li {
+footer li {/* forma da lista */
     list-style: none;
     display: inline;
 }
 
-footer a {
+footer a {/* decoração do texto */
     text-decoration: none;
     color: rgb(83, 83, 83);
 }
-footer a:hover {
+footer a:hover {/* quando passar o muse em cima */
+    color: green;
+}
+
+/* tabela */
+table {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+table td{
+    border: 1px solid black;
+    padding: 0px;
+}
+table img{/*tamanho da imagem */
+    width: 200px;
+    height: 200px;
+}
+table h1 {/* formatação do nome(h1) */
+    margin: 10px;
+    font-size: 25px;
+}
+table p {/*explicação breve sobre a pessoas */
+    text-align: center;
+}
+table li {/* forma da lista */
+    list-style: none;
+    display: inline;
+}
+table a {/* decoração do texto */
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+table a:hover {/* quando passar o muse em cima */
     color: green;
 }
