@@ -34,3 +34,21 @@ header ul{/*Conjunto dos links do ul*/
 #imgp{/*Logo do projeto*/
     margin-top: 20px;
 }
+footer {/*rodape*/
+    border-top: 1px solid black ;
+    text-align: center;
+    
+    padding: 10px;
+}
+footer li {
+    list-style: none;
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+footer a:hover {
+    color: green;
+}
