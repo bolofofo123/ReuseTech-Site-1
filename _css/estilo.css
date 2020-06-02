@@ -86,3 +86,7 @@ table a {/* decoração do texto */
 table a:hover {/* quando passar o muse em cima */
     color: green;
 }
+article p{/* organização do texto */
+    text-align: justify;
+    text-indent: 25px;
+}
