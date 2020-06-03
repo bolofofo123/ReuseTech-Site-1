@@ -23,6 +23,10 @@ header ul{/*Conjunto dos links do ul*/
     background-color:  rgba(248, 248, 248, 0);
     margin-left: 30px;
     margin-top: 20px;
+    
+}
+div .collapse .navbar-collapse{
+    border-top: 1px solid white;
 }
 #logo{/*Div ao redor do Logo do Projeto*/
     margin-left: -20px;
@@ -33,4 +37,47 @@ header ul{/*Conjunto dos links do ul*/
 }
 #imgp{/*Logo do projeto*/
     margin-top: 20px;
+}
+/* table com os participantes */
+table#participantes {
+    float: center;
+    margin: 50px 10px 10px 400px;
+    border-spacing: 0px;
+    border: 1px solid black;
+}
+table#participantes img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: -5px;
+    border: 1px solid black;
+}
+table#participantes td {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+table#participantes p {
+    font-weight: normal;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+table#participantes td.img {
+    padding: 0px; 
+}
+table#participantes li {
+    position: relative;
+    display: inline;
+    font-weight: normal;
+    font-size: 20px;
+}
+table#participantes a {
+    text-decoration: none;
+    color: green;
+}
+table#participantes a:hover {
+    text-decoration: underline;
 }
