@@ -86,7 +86,29 @@ table a {/* decoração do texto */
 table a:hover {/* quando passar o muse em cima */
     color: green;
 }
+article{
+    margin-top: 30px;
+}
 article p{/* organização do texto */
     text-align: justify;
     text-indent: 25px;
+}
+article #aborda{
+    margin: 30px 0 30px 0;
+    background-color: rgba(145, 145, 145, 0.226);
+    padding: 0;
+}
+article #aborda header{
+    text-align: center;
+    background-color: rgba(5, 116, 5, 0.863);
+    padding: 5px;
+    color: white;
+}
+article #txt_aborda{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 900px;
+    padding: 10px;
 }
