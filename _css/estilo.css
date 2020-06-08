@@ -23,6 +23,10 @@ header ul{/*Conjunto dos links do ul*/
     background-color:  rgba(248, 248, 248, 0);
     margin-left: 30px;
     margin-top: 20px;
+    
+}
+div .collapse .navbar-collapse{
+    border-top: 1px solid white;
 }
 #logo{/*Div ao redor do Logo do Projeto*/
     margin-left: -20px;
