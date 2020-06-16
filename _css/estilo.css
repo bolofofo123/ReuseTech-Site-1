@@ -91,7 +91,7 @@ table a:hover {/* quando passar o muse em cima */
     color: green;
 }
 article{
-    margin-top: 30px;
+    margin:30px;
 }
 article p{/* organização do texto */
     text-align: justify;
@@ -101,6 +101,8 @@ article #aborda{
     margin: 30px 0 30px 0;
     background-color: rgba(145, 145, 145, 0.226);
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 article #aborda header{
     text-align: center;
@@ -118,8 +120,17 @@ article #txt_aborda{
 }
 
 @media (max-width: 980px) {
+    article {
+        margin-top: 0px;
+        padding: 30px;
+    }   
+    article div#aborda{
+        margin-left: auto;
+        margin-right: auto;
+    }
     article p{ 
         font-size: 30px;
+        text-align: left;
     }
     article h2{
         font-size: 50px;
