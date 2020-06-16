@@ -116,3 +116,17 @@ article #txt_aborda{
     max-width: 900px;
     padding: 10px;
 }
+
+@media (max-width: 980px) {
+    article p{ 
+        font-size: 30px;
+    }
+    article h2{
+        font-size: 50px;
+    }
+    article h5{
+        font-size: 40px;
+    }
+    footer {
+        font-size: 30px;
+}
